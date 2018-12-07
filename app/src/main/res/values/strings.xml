@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">录音机</string>
+    <string name="dialog_msg_delete">确定要删除该条录音吗？</string>
+    <string name="dialog_btn_positive">确定</string>
+    <string name="msg_delete_success">删除成功</string>
+    <string name="msg_delete_error">删除失败</string>
+    <string name="dialog_btn_negative">取消</string>
+    <string name="dialog_btn_close">关闭</string>
+    <string name="dialog_title_save">保存</string>
+    <string name="dialog_title_rename">重命名</string>
+    <string name="dialog_btn_resumerecord">继续录音</string>
+    <string name="msg_error_rename_exist">该文件已存在</string>
+    <string name="msg_error_permission">权限被禁止</string>
+    <string name="title_recording">正在录制</string>
+    <string name="title_record_pause">已暂停</string>
+    <string name="msg_abondan">确定放弃该录音吗？</string>
+    <string name="msg_error_play">播放失败</string>
+    <string name="msg_error_record_pause">该设备不支持暂停</string>
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PlayButton">
+        <attr name="stokeWidth" format="dimension" />
+        <attr name="stokeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Slider">
+        <attr name="primaryColor" format="reference|color" />
+        <attr name="secondaryColor" format="reference|color" />
+        <attr name="trackCap" format="integer">
+            <enum name="butt" value="0x00000000" />
+            <enum name="round" value="0x00000001" />
+            <enum name="square" value="0x00000002" />
+        </attr>
+        <attr name="android:gravity" />
+        <attr name="android:enabled" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+        <attr name="waveColor" format="color" />
+        <attr name="waveAmplitude" format="dimension" />
+        <attr name="waveSpeed" format="float" />
+        <attr name="waveStartPeriod" format="float" />
+        <attr name="waveStart" format="boolean" />
+        <attr name="waveFillTop" format="boolean" />
+        <attr name="waveFillBottom" format="boolean" />
+        <attr name="waveFillType" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+        <attr name="waveType" format="enum">
+            <enum name="sin" value="0" />
+            <enum name="cos" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
